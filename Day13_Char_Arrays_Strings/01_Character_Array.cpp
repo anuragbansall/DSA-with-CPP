@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string.h>
+#include <cstring>
 using namespace std;
 
 int main(){
@@ -10,7 +10,6 @@ int main(){
     cout<<arr[3]<<"\n";
     cout<<arr[4]<<"\n";
     cout<<arr<<"\n";
-
     cout<<"\n";
 
     // character array creation & output

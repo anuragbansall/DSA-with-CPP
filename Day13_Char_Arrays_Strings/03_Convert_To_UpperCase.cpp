@@ -7,8 +7,8 @@ void toLowerCase(char *str, int len);
 
 int main(){
     char str[] = "ApPle";
-    cout<<str<<"\n";
     int len = strlen(str);
+    cout<<str<<"\n";
     toUpperCase(str, len);
     cout<<str<<"\n";
     toLowerCase(str, len);

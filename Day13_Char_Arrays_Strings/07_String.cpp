@@ -11,6 +11,7 @@ int main(){
     cout<<"Hi, Enter your Name : ";
     // cin>>userName; // will not take value after space
     getline(cin, userName);
+    // getline(cin, userName, '.'); // with delimiter
     cout<<"Hi, "<<userName<<"\n";
 
     // Output String using Loop

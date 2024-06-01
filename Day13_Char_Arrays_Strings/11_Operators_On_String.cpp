@@ -10,6 +10,8 @@ int main(){
     cout<<(str1!=str2)<<"\n"; // Output : 1(true)
     cout<<(str1>str2)<<"\n"; // Output : 0(false)
     cout<<(str1<str2)<<"\n"; // Output : 1(true)
+    cout<<(str1>=str2)<<"\n"; // Output : 0(false)
+    cout<<(str1<= str2)<<"\n"; // Output : 1(true)
 
     string str3 = "anurag";
     string str4 = "anurag";
