@@ -80,7 +80,7 @@ int binarySearch(int *arr, int n, int target) {
         }
 
         // Check if the left side is sorted
-        if (arr[start] <= arr[mid]) {
+        if (arr[start] <= arr[mid]) {   
             // Check if the target is in the left side
             if (arr[start] <= target && target < arr[mid]) {
                 end = mid - 1;
