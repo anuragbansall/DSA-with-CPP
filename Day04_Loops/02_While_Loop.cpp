@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    // print numbers from 1 to 5 usning while loop
+    // print numbers from 1 to 5 using while loop
     int n = 1;
     while(n<=5){
         cout<<n<<"\n";

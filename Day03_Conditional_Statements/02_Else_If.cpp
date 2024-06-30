@@ -35,7 +35,7 @@ int main(){
         income between 5-10L
         20% tax
 
-        1ncome >10L
+        income >10L
         30% tax
     */
 

@@ -55,7 +55,7 @@ int main(){
 
     // question 4
     /*
-        For a positive N, WAP that prints all the prime numbers from 2 to N.(AssumeN>=2)
+        For a positive N, WAP that prints all the prime numbers from 2 to N.(Assume N >= 2)
     */
    int n4;
    cout<<"enter n4 : ";

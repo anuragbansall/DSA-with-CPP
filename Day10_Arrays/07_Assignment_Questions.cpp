@@ -11,7 +11,7 @@ int main(){
     /*
         (EASY)
         Question 1 : Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
-        Examples : 
+        Examples : z
         Input : nums=[1,2,3,4]
         Output : false
         
