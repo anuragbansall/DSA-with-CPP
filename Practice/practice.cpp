@@ -1,15 +1,24 @@
 #include <iostream>
-#include <iomanip>
-#define name "anurag"; //macros
-
 using namespace std;
 
-typedef int myInt; // typedef
+int countSetBits(int n);
 
 int main(){
-   myInt a = 45;
-   cout<<a<<endl;
-   printf("demo");
+    cout<<countSetBits(17)<<"\n";
 
     return 0;
+}
+
+int countSetBits(int n){
+    int count = 0;
+    for(int i=1; i<=n; i++){\
+        int temp = i;
+        while(temp){
+            int lastBit = temp&1;
+            count += lastBit;
+            temp>>=1;
+        }
+    }
+
+    return count;
 }
